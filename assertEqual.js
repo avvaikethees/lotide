@@ -3,9 +3,9 @@ const assertEqual = function(actual, expected) {
   const failed = String.fromCodePoint(0x1F62C);
 
   if (actual === expected) {
-    console.log(passed + passed + passed + " Assertion Passed! " + actual + " === " + expected);
+    console.log(`${passed} ${passed} ${passed} Assertion Passed! ${actual} === ${expected}`);
   } else {
-    console.log(failed + failed + failed + " Assertion Failed: " + actual + " !== " + expected);
+    console.log(`${failed} ${failed} ${failed} Assertion Failed: ${actual} !== ${expected}`);
   }
 return 0
 };

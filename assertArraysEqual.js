@@ -10,15 +10,16 @@ let eqArrays = function (arrayOne, arrayTwo) {
   return eqArrays
 }
 
-console.log(eqArrays([1,2,3], [1,2,3])); 
-console.log (eqArrays ([1, 2, 3], [3, 2, 1]));
+//console.log(eqArrays([1,2,3], [1,2,3])); 
+//console.log (eqArrays ([1, 2, 3], [3, 2, 1]));
 
-let assertArraysEqual = function () {
-  if (eqArrays() === true) {
+let assertArraysEqual = function (arrayOne, arrayTwo) {
+  if (eqArrays(arrayOne, arrayTwo) === true) {
     console.log ("Assertion Passed!")
   } else {
     console.log ("Assertion Failed!")
   }
 }
 
-assertArraysEqual (); 
+assertArraysEqual ([1,2,3], [1,2,3]); 
+assertArraysEqual ([1,2,3], [3,2,3]); 

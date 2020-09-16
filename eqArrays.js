@@ -11,11 +11,6 @@ return 0
 };
 
 let eqArrays = function (arrayOne, arrayTwo) {
- // comparing the lengths - may not be necessary?
- // if (arrayOne.length !== arrayTwo.length) {
- //   return false;
- // }; 
-    
   for (let i=0; i < arrayOne.length; i++){
 
     if (arrayOne[i] === arrayTwo[i]) {
