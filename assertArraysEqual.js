@@ -1,14 +1,12 @@
 let eqArrays = function (arrayOne, arrayTwo) {
   for (let i=0; i < arrayOne.length; i++){
 
-    if (arrayOne[i] === arrayTwo[i]) {
-      return true
-    } else {
+    if (arrayOne[i] !== arrayTwo[i]) {
       return false
-    }
+    } 
   }
-  return eqArrays
-}
+      return true
+    }
 
 //console.log(eqArrays([1,2,3], [1,2,3])); 
 //console.log (eqArrays ([1, 2, 3], [3, 2, 1]));
