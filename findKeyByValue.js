@@ -13,7 +13,13 @@ return 0
 //Implement function 
 
 const findKeyByValue = function (object, value) {
-  
+let array = Object.keys(object)
+for (let key of array) {
+if (object[key] === value) {
+return key;
+}
+}
+return undefined
 }
 
 
