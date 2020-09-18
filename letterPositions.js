@@ -40,7 +40,7 @@ const letterPositions = function(sentence) {
 };
 
 console.log (letterPositions("hello"));
-//assertArraysEqual(letterPositions("hello").e, [1]);
+assertArraysEqual(letterPositions("hello").e, [1]);
 
 // const countLetter = function (string) {
 //   const result = {};
