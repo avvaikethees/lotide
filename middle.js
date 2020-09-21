@@ -1,22 +1,22 @@
-let eqArrays = function(arrayOne, arrayTwo) {
-  for (let i = 0; i < arrayOne.length; i++) {
+// let eqArrays = function(arrayOne, arrayTwo) {
+//   for (let i = 0; i < arrayOne.length; i++) {
 
-    if (arrayOne[i] === arrayTwo[i]) {
-      return true;
-    } else {
-      return false;
-    }
-  }
-  return eqArrays;
-};
+//     if (arrayOne[i] === arrayTwo[i]) {
+//       return true;
+//     } else {
+//       return false;
+//     }
+//   }
+//   return eqArrays;
+// };
 
-let assertArraysEqual = function(arrayOne, arrayTwo) {
-  if (eqArrays(arrayOne, arrayTwo) === true) {
-    console.log("Assertion Passed!");
-  } else {
-    console.log("Assertion Failed!");
-  }
-};
+// let assertArraysEqual = function(arrayOne, arrayTwo) {
+//   if (eqArrays(arrayOne, arrayTwo) === true) {
+//     console.log("Assertion Passed!");
+//   } else {
+//     console.log("Assertion Failed!");
+//   }
+// };
 
 let middle = function(array) {
   let middleArray = [];
@@ -32,17 +32,20 @@ let middle = function(array) {
   return middleArray;
 };
 
-console.log(middle([1]));
-console.log(middle([1, 2]));
-console.log(middle([1, 2, 3]));// => [2]
-console.log(middle([1, 2, 3, 4, 5]));// => [3]
-console.log(middle([1, 2, 3, 4]));// => [2, 3]
-console.log(middle([1, 2, 3, 4, 5, 6])); // => [3, 4]
+module.exports = middle;
+
+//assertArraysEqual (middle([1, 2, 3, 4]), [2,3])
+// console.log(middle([1]));
+// console.log(middle([1, 2]));
+// console.log(middle([1, 2, 3]));// => [2]
+// console.log(middle([1, 2, 3, 4, 5]));// => [3]
+// console.log(middle([1, 2, 3, 4]));// => [2, 3]
+// console.log(middle([1, 2, 3, 4, 5, 6])); // => [3, 4]
 
 //assertArraysEqual ([1,2,3], [1,2,3]); 
 //assertArraysEqual ([1,2,3], [3,2,3]); 
 
-assertArraysEqual (middle([1, 2, 3, 4]), [2,3])
+//assertArraysEqual (middle([1, 2, 3, 4]), [2,3])
 //let array = [1, 2, 3, 4, 5, 6]
 //console.log (array.length)
 
