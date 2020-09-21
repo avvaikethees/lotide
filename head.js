@@ -1,10 +1,11 @@
-const assertEqual = require('./assertEqual');
+//const assertEqual = require('./assertEqual');
 
 // Implement Head funciton 
 const head = function(list) {
   return list[0];
 };
 
+module.exports = head;
 
 // // TEST CODE with assertEqual function 
 // const assertEqual = function(actual, expected) {
@@ -23,6 +24,5 @@ const head = function(list) {
 // assertEqual(head([5,67]), 5); 
 // assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
 
-module.exports = head;
 
 
