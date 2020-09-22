@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@avvaikethees/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "a library of functions that is loosely based off the Lodash library. This was created for learning purposes.  ",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/avvaikethees/lotide.git"
   },
-  "author": "",
+  "author": "Avvai Ketheeswaran",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/avvaikethees/lotide/issues"
