@@ -33,6 +33,8 @@ console.log(countLetter("i love lighthouse labs"));
 const actual = countLetter ("i love lighthouse labs")
 assertEqual (actual["i"], 2);
 
+module.exports = countLetter;
+
 // let countLetters = function (someString) {
 //   const results = {};
 //   const x = someString.split(" ").join("");

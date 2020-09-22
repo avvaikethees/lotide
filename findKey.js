@@ -26,6 +26,7 @@ const findKey = function (object, callback) {
 // for (i = 0; i < array.length; i ++) {
 //   if (object[key] === callback(object))
 // }
+module.exports = findKey;
 
 let test = findKey({
   "Blue Hill": { stars: 1 },

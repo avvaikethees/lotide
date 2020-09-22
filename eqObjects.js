@@ -27,7 +27,6 @@ let eqArrays = function (arrayOne, arrayTwo) {
 }
 
 
-
 const eqObjects = function (object1, object2) {
   
   let arrayOne = Object.keys(object1);
@@ -53,6 +52,7 @@ const eqObjects = function (object1, object2) {
 return true
 }
 
+module.exports = eqObjects;
 
 const ab = { a: "1", b: "2" };
 const ba = { b: "2", a: "1" };

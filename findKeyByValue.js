@@ -22,7 +22,7 @@ return key;
 return undefined
 }
 
-
+module.exports = findKeyByValue;
 
 
 
